@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: ashokit
+    password: AshokIT@123
+    url: jdbc:mysql://localhost:3306/jrtp22
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
