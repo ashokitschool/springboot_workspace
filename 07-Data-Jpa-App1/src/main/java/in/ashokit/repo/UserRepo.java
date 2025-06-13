@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import in.ashokit.entity.User;
 
-public interface UserRepo extends CrudRepository<User, Integer> {
+public interface UserRepo extends CrudRepository<User, String> {
 
 	@Query(value = "select * from user", nativeQuery = true)
 	public List<User> m1();

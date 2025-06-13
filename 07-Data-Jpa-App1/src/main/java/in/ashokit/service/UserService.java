@@ -24,7 +24,7 @@ public class UserService {
 
 	public void getUser() {
 
-		Optional<User> byId = userRepo.findById(101);
+		Optional<User> byId = userRepo.findById("101");
 
 		if (byId.isPresent()) {
 			User user = byId.get();
