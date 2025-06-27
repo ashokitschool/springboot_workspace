@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 19-REST-Ex-Handling
+  datasource:
+    url: 
+server:
+  port: 9090
+logging:
+  level:
+    root: DEBUG

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 16-REST-API
+    
+app:
+  messages:
+    greet: Good Mrng..!!
+    welcome: Welcome to Ashok IT
+    invalidLogin: Invalid Credentials
+    regSuccess: Registration Successful
+    invalidEmail: Email Invalid

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 17-REST-Client-App
+quotes:
+  random:
+    api:
+      url: https://dummyjson.com/quotes/random
+server:
+  port: 9091

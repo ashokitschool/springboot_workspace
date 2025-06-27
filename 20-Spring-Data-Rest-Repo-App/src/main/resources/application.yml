@@ -1,0 +1,14 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: 20-Spring-Data-Rest-Repo-App
+  datasource:
+    url: jdbc:mysql://localhost:3306/sbms66
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
