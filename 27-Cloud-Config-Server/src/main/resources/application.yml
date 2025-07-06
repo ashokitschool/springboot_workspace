@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 27-Cloud-Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ashokitschool/configuration_properties
+server:
+  port: 4444
+

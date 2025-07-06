@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 21-SB-Actuators-App
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: beans
+  endpoint:
+    shutdown:
+      access: unrestricted

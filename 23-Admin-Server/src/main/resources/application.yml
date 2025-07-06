@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: 23-Admin-Server
+server:
+  port: 1111

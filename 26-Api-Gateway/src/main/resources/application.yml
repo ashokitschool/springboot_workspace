@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: 26-Api-Gateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+          - id: api-1
+            uri: lb://24-Welcome-API
+            predicates: 
+              - Path=/welcome
+          - id: api-2
+            uri: lb://25-Greet-API
+            predicates:
+              - Path=/greet
+server:
+  port: 3333

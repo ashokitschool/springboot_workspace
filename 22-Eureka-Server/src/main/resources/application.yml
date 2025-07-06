@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: 22-Eureka-Server
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
